@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Sidebar.css"; // We'll create this CSS file for styling
 
 const Sidebar = () => {
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed] = useState(false);
 
   return (
     <div className={` pt-6 ps-4 sidebar ${collapsed ? "collapsed" : ""}`}  >
